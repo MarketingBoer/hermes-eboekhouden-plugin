@@ -1,4 +1,16 @@
+![e-Boekhouden.nl community plugin for Hermes Agent — dry-run previews for supported writes](assets/social-preview.png)
+
 # e-Boekhouden.nl plugin for Hermes Agent
+
+Use selected e-Boekhouden.nl accounting API operations from Hermes Agent, with a local preview before supported writes.
+
+**For:** Hermes users, Dutch small businesses, and developers who already use e-Boekhouden.nl with REST API access. This plugin is not a replacement for the accounting application.
+
+**Voor Nederlandse gebruikers:** gebruik geselecteerde e-Boekhouden.nl-functies vanuit Hermes. Bekijk eerst een lokale preview van ondersteunde schrijfacties. Je gebruikt je eigen account en API-token.
+
+[Installation](#install) · [Examples](#examples) · [Supported operations](#supported-operations) · [Report an issue](https://github.com/MarketingBoer/hermes-eboekhouden-plugin/issues) · [First preview release](https://github.com/MarketingBoer/hermes-eboekhouden-plugin/releases/tag/v0.1.0)
+
+If this project is useful to you, [give it a star on GitHub](https://github.com/MarketingBoer/hermes-eboekhouden-plugin). Feedback and focused contributions are welcome.
 
 Connect Hermes Agent to selected e-Boekhouden.nl REST API operations through a native Python plugin. Inspect local dry-run previews before you send supported write requests.
 
@@ -41,7 +53,7 @@ hermes plugins enable eboekhouden
 hermes plugins doctor eboekhouden --ci
 ```
 
-These commands are documented Hermes operations. They do not prove remote installation, activation, or live-account interoperability. Plugin Doctor imports Python with your user permissions; it is not an operating-system sandbox. Hermes CLI startup can perform its own maintenance. Inspect your runtime before using an isolated HOME as a test boundary.
+The public GitHub installation, enable command, and Plugin Doctor passed in an isolated test profile. The installed copy also passed 38 offline tests. These checks do not prove live-account interoperability. Plugin Doctor imports Python with your user permissions; it is not an operating-system sandbox. Hermes CLI startup can perform its own maintenance. Inspect your runtime before using an isolated HOME as a test boundary.
 
 ### GitHub installation
 
