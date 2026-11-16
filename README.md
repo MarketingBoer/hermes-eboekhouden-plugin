@@ -57,7 +57,7 @@ The public GitHub installation, enable command, and Plugin Doctor passed in an i
 
 ### GitHub installation
 
-Hermes documents this installation route. End-to-end installation through the Hermes CLI has not been verified for this release:
+This GitHub installation route passed in an isolated Hermes test profile. Live-account interoperability remains unverified:
 
 ```sh
 hermes plugins install MarketingBoer/hermes-eboekhouden-plugin --no-enable
