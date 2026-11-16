@@ -1,0 +1,7 @@
+name: eboekhouden
+version: 0.1.0
+description: "e-Boekhouden.nl REST API tools with Hermes profile-scoped credentials. Selected reads and writes are allowlisted. Writes default to local dry-run previews."
+kind: standalone
+provides_tools:
+  - eboekhouden_status
+  - eboekhouden_api
